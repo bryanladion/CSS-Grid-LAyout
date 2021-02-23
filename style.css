@@ -1,0 +1,18 @@
+.grid{
+    display: grid;
+    grid-template-columns: 70% 30% ;
+   /*
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    -- same as grid gap
+    */
+    grid-gap: 1em;
+}
+.grid > div{
+    background-color:cyan;
+    padding: 1em;
+
+}
+.grid > div:nth-child(odd){
+    background: darkblue;
+}
